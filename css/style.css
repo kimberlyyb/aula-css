@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Petit+Formal+Script&display=swap');
+
+body{
+   background-color: #F2EFE9;
+   font-size: 20px;
+}
+h1{
+    color: #8C4C3E;
+    font-family: 'Petit Formal Script';
+    text-align: justify;
+}
+h2{
+    color: #8C4C3E;
+    font-family: 'Petit Formal Script';
+    text-align: justify;
+}
