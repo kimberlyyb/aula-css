@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    border: 10px solid pink;
+    overflow: auto;
+    width: 450px;
+}
+
+img{
+    height: 300px;
+
+}
+.container img{
+    float: left;
+}
+.container p{
+  text-align: justify;
+}
+.div2{
+    border: 10px solid crimson;
+    padding: 10px;
+    width: 670px;
+    margin: 0;
+    text-align: justify;
+}
+.p1{
+    background-color: burlywood;
+    color: brown;
+    float: left;
+}  
+.p2{
+    clear:left;
+    background-color: cornsilk;
+    color: coral;
+
+}
