@@ -1,0 +1,9 @@
+input:focus{
+    background-color: bisque;
+    color: aquamarine
+} 
+a:active{
+    text-decoration:none;
+    color: purple;
+    font-size: 2em;
+}
