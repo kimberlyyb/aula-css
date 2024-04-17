@@ -1,0 +1,43 @@
+body {
+    background-color: red;
+}
+
+p {
+    color: blueviolet;
+}
+
+.text {
+    color: brown;
+}
+
+@media screen and (min-width: 765px) {
+    body {
+        background-color: burlywood;
+    }
+  
+    .text {
+        color: brown;
+        display: block;
+    }
+
+    p {
+        color: blueviolet;
+        display: none;
+    }
+}
+
+@media screen and (max-width: 766px) {
+    body {
+        background-color: rgb(116, 75, 22);
+    }
+    
+    p {
+        color: blueviolet;
+        display: block;
+    }
+
+    .text {
+        color: brown;
+        display: none;
+    }
+}
