@@ -5,12 +5,15 @@ body {
 p {
     color: blueviolet;
 }
+.text2{
+    color: brown;
+}
 
 .text {
     color: brown;
 }
 
-@media screen and (min-width: 765px) {
+@media screen and (max-width: 600px) {
     body {
         background-color: burlywood;
     }
@@ -26,7 +29,7 @@ p {
     }
 }
 
-@media screen and (max-width: 766px) {
+@media screen and (min-width: 601px) and (max-width:1200px){
     body {
         background-color: rgb(116, 75, 22);
     }
@@ -40,4 +43,28 @@ p {
         color: brown;
         display: none;
     }
+    .text2{
+        color: brown;
+        display: none;
+    }
+}
+
+@media screen and (min-width:1201px) {
+   body{
+    background-color: aquamarine;
+   }
+   p {
+    color: blueviolet;
+    display: none;
+}
+
+.text {
+    color: brown;
+    display: none;
+}
+.text2{
+    color: brown;
+    display: block;
+}
+    
 }
