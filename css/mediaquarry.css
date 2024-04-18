@@ -1,15 +1,13 @@
 body {
     background-color: red;
 }
-
 p {
     color: blueviolet;
 }
-.text2{
+.text {
     color: brown;
 }
-
-.text {
+.text2{
     color: brown;
 }
 
@@ -65,6 +63,5 @@ p {
 .text2{
     color: brown;
     display: block;
-}
-    
+} 
 }
