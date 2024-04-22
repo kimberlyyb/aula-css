@@ -1,0 +1,9 @@
+/* 4 colunas e 4 linhas com as mesmas dimens */
+/* limitar espaços */
+.container{
+    background-color: bisque;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(4, 1fr);
+}
