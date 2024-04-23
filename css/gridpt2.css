@@ -1,0 +1,8 @@
+.container{
+    height: 800px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 10px;
+    place-items: end start ;
+}
